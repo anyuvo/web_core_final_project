@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4cc56fa5-cce3-4ce3-8719-32a3cf869939" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/comic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/webpack.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../Project_1_K/anyuvo.github.io/anyuvo.github.io" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../Project_1_K/anyuvo.github.io/slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Project_1_K/anyuvo.github.io/slider.js" afterDir="false" />
     </list>
@@ -12,7 +16,10 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2GWFuWNdy3DqEIO1j26TNWmtfJZ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -37,7 +44,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1666496655756</updated>
-      <workItem from="1666496657219" duration="324000" />
+      <workItem from="1666496657219" duration="4112000" />
     </task>
     <servers />
   </component>
