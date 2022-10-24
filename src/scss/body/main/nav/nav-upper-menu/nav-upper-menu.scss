@@ -7,6 +7,11 @@
   display: flex;
   align-items: center;
 
+  @media (min-width: $screen-xl) {
+    height: 118px;
+    padding-right: 29px;
+  }
+
   &__logo {
     width: 97px;
     height: 51px;
@@ -17,6 +22,10 @@
     left: -1px;
     transition: opacity 0.2s ease-in-out;
 
+    @media (min-width: $screen-xl) {
+      margin-left: 0;
+    }
+
     &:hover {
       opacity: 0.5;
     }
@@ -25,6 +34,12 @@
   &__icon {
     width: 40px;
     height: 40px;
+
+    &:first-child {
+      @media (min-width: $screen-xl) {
+        display: none;
+      }
+    }
   }
 
   &__button {
