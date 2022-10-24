@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4cc56fa5-cce3-4ce3-8719-32a3cf869939" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/js/brands.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/swiper/slider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/swiper/swiper.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/body/main/main-content/brands/brands.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/body/main/main-content/swiper/slider.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/body/main/main-content/swiper/swiper.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/adaptive-elements.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/adaptive-elements.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/swiper/slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/swiper/brands-slider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/body/main/main-content/swiper/slider.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/body/main/main-content/brands/brands-slider.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/body/main/main-content/swiper/swiper.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/body/main/main-content/swiper/swiper.min.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../Project_1_K/anyuvo.github.io/anyuvo.github.io" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../Project_1_K/anyuvo.github.io/slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Project_1_K/anyuvo.github.io/slider.js" afterDir="false" />
@@ -44,6 +39,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Work\Kata\1 WEB CORE\web_core_final_project\src\scss\body\main\main-content\brands" />
       <recent name="D:\Work\Kata\1 WEB CORE\web_core_final_project\src\scss\body\main\main-content" />
       <recent name="D:\Work\Kata\1 WEB CORE\web_core_final_project\src\img" />
     </key>

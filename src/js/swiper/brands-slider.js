@@ -1,3 +1,5 @@
+import Swiper from './swiper.min';
+
 const slider = document.querySelector('.slider-container');
 
 let mySwiper;
