@@ -1,20 +1,39 @@
 .nav {
   position: absolute;
   top: 0;
-  z-index: 10;
-  width: 320px;
   padding-bottom: 32px;
-  background-color: #FFFFFF;
-  box-shadow: 16px 0px 52px rgba(14, 24, 80, 0.2),
-  -2px 0px 4px rgba(69, 79, 126, 0.02);
+
+  &__background {
+    @media (min-width: $screen-md) {
+      position: absolute;
+      min-width: 769px;
+      min-height: 1024px;
+      opacity: 0.96;
+      background-color: #FFFFFF;
+      z-index: 9;
+    }
+  }
+
+  &__content {
+    position: absolute;
+    z-index: 10;
+    min-width: 320px;
+    background-color: #FFFFFF;
+    box-shadow: 16px 0px 52px rgba(14, 24, 80, 0.2),
+    -2px 0px 4px rgba(69, 79, 126, 0.02);
+
+  }
 
   &__list {
-    //min-height: 684px;
     display: flex;
     flex-direction: column;
     list-style-type: none;
     margin-top: 18px;
     padding-left: 24px;
+
+    @media (min-width: $screen-md) {
+      min-height: 684px;
+    }
   }
 
   &__item {
