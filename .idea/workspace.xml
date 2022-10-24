@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4cc56fa5-cce3-4ce3-8719-32a3cf869939" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/scss/body/main/nav/contacts/contacts.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/body/main/nav/languages/languages.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/body/main/nav/nav-upper-menu/nav-upper-menu.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/body/main/nav/nav.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/nav/nav.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/body/body.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/body/body.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/body/header/upper-menu/upper-menu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/body/header/upper-menu/upper-menu.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/body/main/nav/nav.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/body/main/nav/nav.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../Project_1_K/anyuvo.github.io/anyuvo.github.io" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../Project_1_K/anyuvo.github.io/slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Project_1_K/anyuvo.github.io/slider.js" afterDir="false" />
     </list>
@@ -65,7 +65,7 @@
       <workItem from="1666496657219" duration="5493000" />
       <workItem from="1666537576144" duration="27792000" />
       <workItem from="1666623389363" duration="9084000" />
-      <workItem from="1666636884839" duration="1978000" />
+      <workItem from="1666636884839" duration="4874000" />
     </task>
     <servers />
   </component>

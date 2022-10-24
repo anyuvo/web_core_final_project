@@ -10,3 +10,5 @@ import './types/types';
 
 import './price/price-slider';
 import './price/price';
+
+import './nav/nav';

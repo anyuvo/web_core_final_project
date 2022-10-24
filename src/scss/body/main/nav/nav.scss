@@ -1,4 +1,7 @@
 .nav {
+  position: absolute;
+  top: 0;
+  z-index: 10;
   width: 320px;
   padding-bottom: 32px;
   background-color: #FFFFFF;
@@ -6,7 +9,7 @@
   -2px 0px 4px rgba(69, 79, 126, 0.02);
 
   &__list {
-    min-height: 684px;
+    //min-height: 684px;
     display: flex;
     flex-direction: column;
     list-style-type: none;

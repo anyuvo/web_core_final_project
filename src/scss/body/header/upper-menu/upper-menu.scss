@@ -42,10 +42,16 @@
     margin-right: 16px;
     width: 40px;
     height: 40px;
+    transition: all 0.2s ease-in-out;
 
     @media (min-width: $screen-xl) {
       margin-right: 32px;
       width: auto;
+    }
+
+    &:hover {
+      opacity: 0.5;
+      transform: scale(1.2);
     }
 
     &:last-child {
