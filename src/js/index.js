@@ -2,5 +2,8 @@ import '../scss/style.scss';
 
 import './swiper/swiper.min';
 
-import './swiper/brands-slider';
-import './brands';
+import './brands/brands-slider';
+import './brands/brands';
+
+import './types/types-slider';
+import './types/types';

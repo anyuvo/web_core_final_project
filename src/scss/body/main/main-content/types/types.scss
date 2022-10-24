@@ -1,6 +1,6 @@
-@import "brands-slider";
+@import "types-slider";
 
-.brands {
+.types {
   background-color: #F8F8F8;
 
   @media (min-width: $screen-md) {
@@ -52,7 +52,7 @@
   }
 
   &__item {
-    &:nth-child(n + 7) {
+    &:nth-child(n + 4) {
       @media (min-width: $screen-md) {
         display: none;
       }
@@ -62,7 +62,7 @@
       }
     }
 
-    &:nth-child(n + 9) {
+    &:nth-child(n + 5) {
       @media (min-width: $screen-xl) {
         display: none;
       }
@@ -77,35 +77,41 @@
     }
   }
 
-
   &__link {
     box-sizing: border-box;
     margin-right: 16px;
     padding: 16px;
-    min-width: 240px;
-    height: 72px;
+    width: 240px;
+    height: 160px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
     background-color: #FFFFFF;
     border: 1px solid #EAEAEA;
     border-radius: 6px;
+    font-family: 'TT Lakes Medium', "Arial", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    color: #1B1C21;
+    text-decoration: none;
+
 
     @media (min-width: $screen-md) {
       margin-right: 24px;
       margin-bottom: 16px;
-      min-width: 224px;
+      width: 224px;
     }
 
     @media (min-width: $screen-xl) {
       margin-right: 32px;
       margin-bottom: 16px;
-      min-width: 240px;
+      width: 240px;
     }
 
     &::after {
       content: url(../img/icons/go.svg);
       max-height: 40px;
+      align-self: flex-end;
     }
   }
 

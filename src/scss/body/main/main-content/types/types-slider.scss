@@ -1,15 +1,15 @@
-.brands-slider-container {
+.types-slider-container {
     position: relative;
     overflow: hidden;
 }
 
-.brands-slider-container::after {
+.types-slider-container::after {
     content: '';
     position: absolute;
     right: 0;
-    top: 7px;
+    top: 10px;
     width: 24px;
-    height: 81px;
+    height: 166px;
     background: linear-gradient(270deg, #F8F8F8 16.84%, rgba(248, 248, 248, 0.0001) 100%);
     z-index: 1;
 }
