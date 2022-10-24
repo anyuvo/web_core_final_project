@@ -39,6 +39,13 @@
       border-radius: 6px;
       vertical-align: top;
       background-color: #FFFFFF;
+
+      &:first-child {
+        @media (min-width: $screen-xl) {
+          margin-left: -24px;
+          padding-left: 22.64px;
+        }
+      }
     }
   }
 
