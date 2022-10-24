@@ -2,17 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4cc56fa5-cce3-4ce3-8719-32a3cf869939" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/js/types/types-slider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/types/types.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/body/main/main-content/types/types-slider.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/body/main/main-content/types/types.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/price/price-slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/price/price.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/body/main/main-content/price/price-slider.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/body/main/main-content/price/price.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/brands.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/brands/brands.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/swiper/brands-slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/brands/brands-slider.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/body/main/main-content/brands/brands-slider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/body/main/main-content/brands/brands-slider.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/body/main/main-content/brands/brands.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/body/main/main-content/brands/brands.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/body/main/main-content/types/types.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/body/main/main-content/types/types.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../Project_1_K/anyuvo.github.io/anyuvo.github.io" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../Project_1_K/anyuvo.github.io/slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Project_1_K/anyuvo.github.io/slider.js" afterDir="false" />
@@ -39,13 +37,15 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Work/Kata/1 WEB CORE/web_core_final_project/src/scss/body/main/main-content/types",
+    "last_opened_file_path": "D:/Work/Kata/1 WEB CORE/web_core_final_project/src/js",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Work\Kata\1 WEB CORE\web_core_final_project\src\js" />
+      <recent name="D:\Work\Kata\1 WEB CORE\web_core_final_project\src\scss\body\main\main-content\price" />
       <recent name="D:\Work\Kata\1 WEB CORE\web_core_final_project\src\scss\body\main\main-content\types" />
       <recent name="D:\Work\Kata\1 WEB CORE\web_core_final_project\src\js\types" />
     </key>
@@ -66,7 +66,7 @@
       <updated>1666496655756</updated>
       <workItem from="1666496657219" duration="5493000" />
       <workItem from="1666537576144" duration="27792000" />
-      <workItem from="1666623389363" duration="2237000" />
+      <workItem from="1666623389363" duration="5921000" />
     </task>
     <servers />
   </component>

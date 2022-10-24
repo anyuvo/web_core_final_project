@@ -7,3 +7,6 @@ import './brands/brands';
 
 import './types/types-slider';
 import './types/types';
+
+import './price/price-slider';
+import './price/price';
