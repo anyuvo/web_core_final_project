@@ -1,0 +1,102 @@
+.upper-menu {
+  margin: 0;
+  padding: 0;
+  height: 88px;
+  display: flex;
+  align-items: center;
+  background-color: #FFFFFF;
+  list-style-type: none;
+
+  @media (min-width: $screen-xl) {
+    display: flex !important;
+    height: 40px;
+    background-color: transparent;
+  }
+
+  &__logo {
+    margin-right: 16.73px;
+    margin-left: 16.73px;
+    width: 96.55px;
+    height: 50.81px;
+    position: relative;
+    top: -1px;
+    left: -1px;
+
+    @media (min-width: $screen-md) {
+      margin-right: auto;
+      margin-left: 0.73px;
+    }
+  }
+
+  &__divider {
+    margin-right: 20px;
+    width: 2px;
+    height: 32px;
+
+    @media (min-width: $screen-md) {
+      margin-left: 4px;
+    }
+  }
+
+  &__icon {
+    margin-right: 16px;
+    width: 40px;
+    height: 40px;
+
+    @media (min-width: $screen-xl) {
+      margin-right: 32px;
+      width: auto;
+    }
+
+    &:last-child {
+      margin-right: 24px;
+
+      @media (min-width: $screen-xl) {
+        margin-right: 32px;
+      }
+    }
+
+    &--first {
+      margin-right: 0;
+      margin-left: 16px;
+      width: 40px;
+      height: 40px;
+      order: -1;
+
+      @media (min-width: $screen-md) {
+        margin-right: 16px;
+        margin-left: 24px;
+      }
+    }
+  }
+
+  &__shadow {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    @media (min-width: $screen-md) {
+      width: 768px;
+    }
+  }
+
+  &__link {
+    @media (min-width: $screen-xl) {
+      height: 40px;
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+    }
+  }
+
+  &__text {
+    @media (min-width: $screen-xl) {
+      padding-right: 9px;
+      font-size: 16px;
+      line-height: 24px;
+      font-family: "TT Lakes Medium", "Arial", sans-serif;
+      letter-spacing: -0.2px;
+      color: #1B1C21;
+    }
+  }
+}

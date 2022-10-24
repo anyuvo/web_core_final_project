@@ -1,0 +1,54 @@
+.slide-menu {
+  min-height: 40px;
+  margin: 0 0 24px 16px;
+  padding: 0;
+  display: flex;
+  overflow: scroll;
+  list-style-type: none;
+  align-items: center;
+
+  @media (min-width: $screen-md) {
+    margin-left: 24px;
+    margin-bottom: 32px;
+  }
+
+  @media (min-width: $screen-xl) {
+    overflow: visible;
+    flex-wrap: wrap;
+    margin-left: 56px;
+    margin-bottom: 5px;
+  }
+
+  &__item {
+    margin-right: 19.56px;
+    white-space: nowrap;
+
+    @media (min-width: $screen-md) {
+      margin-right: 25px;
+    }
+
+    @media (min-width: $screen-xl) {
+      margin-bottom: 15px;
+    }
+
+    &--active {
+      box-sizing: border-box;
+      height: 40px;
+      padding: 6px 9.3px 6px 14.54px;
+      border: 2px solid #B8FFEC;
+      border-radius: 6px;
+      vertical-align: top;
+      background-color: #FFFFFF;
+    }
+  }
+
+  &__text {
+    display: block;
+    height: 24px;
+    font-size: 16px;
+    font-family: "TT Lakes Medium", "Arial", sans-serif;
+    text-decoration: none;
+    letter-spacing: -0.2px;
+    color: #7E7E82;
+  }
+}

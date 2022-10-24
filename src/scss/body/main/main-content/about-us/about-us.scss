@@ -1,0 +1,105 @@
+.about-us {
+  @media (min-width: $screen-md) {
+    display: flex;
+  }
+
+  &__text {
+    margin: 0 16px 16px 16px;
+    width: 288px;
+    font-size: 14px;
+    line-height: 18px;
+    font-family: "TT Lakes Regular", "Arial", sans-serif;
+    letter-spacing: 0.2px;
+    color: #1B1C21;
+
+    @media (min-width: $screen-md) {
+      margin-left: 24px;
+      margin-right: 48px;
+      margin-bottom: 10px;
+      width: 312px;
+      line-height: 20px;
+    }
+
+    @media (min-width: $screen-xl) {
+      margin-left: 34px;
+      margin-right: 36px;
+      margin-bottom: 0;
+      width: 490px;
+      line-height: 20px;
+    }
+
+    //&:not(.md) {
+    //  margin-bottom: 20px;
+    //}
+
+    .md {
+      margin-bottom: 20px;
+    }
+
+    .lg:not(.md),
+    .lg:not(.xs) {
+      @media (min-width: $screen-xl) {
+        margin-top: 20px;
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  &__read-more {
+
+    position: relative;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 16px;
+    margin-left: 48px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    font-family: 'TT Lakes Medium', "Arial", sans-serif;
+    color: #1B1C21;
+    background-color: rgba(0, 0, 0, 0);
+
+    @media (min-width: $screen-md) {
+      margin-left: 57px;
+      line-height: 24px;
+    }
+
+    @media (min-width: $screen-xl) {
+      margin-left: 64px;
+      margin-top: 13px;
+      line-height: 24px;
+    }
+
+    &::before {
+      content: url("../img/icons/expand.svg");
+      position: absolute;
+      left: -32px;
+    }
+  }
+
+  &__photo {
+    width: 320px;
+    height: 176px;
+    background-image: url("../img/fotologo/fotologoxs.png");
+
+    @media (min-width: $screen-md) {
+      width: 360px;
+      height: 208px;
+      background-image: url("../img/fotologo/fotologosm.png");
+      border-radius: 6px;
+    }
+
+    @media (min-width: $screen-xl) {
+      position: relative;
+      top: -10px;
+      width: 531.35px;
+      height: 307px;
+      background-image: url("../img/fotologo/fotologolg.png");
+      border-radius: 6px;
+    }
+  }
+}
+
+

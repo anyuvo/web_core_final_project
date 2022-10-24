@@ -1,0 +1,33 @@
+.xs:not(.md) {
+  @media (min-width: $screen-md) {
+    display: none;
+  }
+}
+
+.xs:not(.xl) {
+  @media (min-width: $screen-xl) {
+    display: none;
+  }
+}
+
+.md:not(.xs) {
+  display: none;
+
+  @media (min-width: $screen-md) {
+    display: block;
+  }
+}
+
+.md:not(.xl) {
+  @media (min-width: $screen-xl) {
+    display: none;
+  }
+}
+
+.xl:not(.xs) {
+  display: none;
+
+  @media (min-width: $screen-xl) {
+    display: block;
+  }
+}
