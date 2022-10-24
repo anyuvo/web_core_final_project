@@ -20,6 +20,9 @@
 @import "variables";
 @import 'adaptive-elements';
 
+@import "body/main/main-content/swiper/swiper.min.css";
+@import "body/main/main-content/swiper/slider.css";
+
 @import "./body/body";
 
 @import "body/header/header";
@@ -31,3 +34,4 @@
 
 @import "body/main/main-content/about-us/about-us";
 
+@import "body/main/main-content/brands/brands";

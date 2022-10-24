@@ -8,7 +8,9 @@
   <title><%= htmlWebpackPlugin.options.title %></title>
 </head>
 <body class="body">
+
 <header class="header xs md">
+
   <ul class="upper-menu">
     <li class="upper-menu__icon--first">
       <a class="upper-menu__link" href="#">
@@ -52,10 +54,15 @@
       </a>
     </li>
   </ul>
+
   <img class="upper-menu__shadow" src="img/icons/shadow.png" alt="Тень">
+
 </header>
+
 <main class="main">
+
   <section class="main-content">
+
     <section class="main-content__title-container main-content__item">
       <h1 class="main-content__title">Услуги и сервисы</h1>
       <img class="main-content__title-highlight" src="img/icons/highlight.png" alt="">
@@ -74,6 +81,7 @@
         </li>
       </ul>
     </section>
+
     <ul class="slide-menu main-content__item">
       <li class="slide-menu__item slide-menu__item--active">
         <a class="slide-menu__text" href="#">Ремонтируемые устройства &nbsp;</a>
@@ -94,6 +102,7 @@
         <a class="slide-menu__text" href="#">Отзывы</a>
       </li>
     </ul>
+
     <section class="about-us main-content__item">
       <div class="about-us__container">
         <div class="about-us__text-container">
@@ -118,6 +127,77 @@
            title="Фото логотипа CPS">
       <img class="about-us__photo xl" src="./img/fotologo/fotologolg.png" alt="Фото логотипа CPS"
            title="Фото логотипа CPS">
+    </section>
+
+    <section class="brands">
+      <h2 class="brands__title">Ремонт техники различных брендов</h2>
+      <div class="slider-container" data-mobile="false">
+        <ul class="brands__list swiper-wrapper">
+          <li class="brands__item">
+            <a class="brands__link" href="#">
+              <img class="brands__image" src="./img/brands/lenovo.png" alt="Lenovo">
+            </a>
+          </li>
+          <li class="brands__item">
+            <a class="brands__link" href="#">
+              <img class="brands__image" src="./img/brands/Samsung.png" alt="Samsung">
+            </a>
+          </li>
+          <li class="brands__item">
+            <a class="brands__link" href="#">
+              <img class="brands__image" src="./img/brands/Apple.png" alt="Apple">
+            </a>
+          </li>
+          <li class="brands__item">
+            <a class="brands__link" href="#">
+              <img class="brands__image" src="./img/brands/ViewSonic.png" alt="ViewSonic">
+            </a>
+          </li>
+          <li class="brands__item">
+            <a class="brands__link" href="#">
+              <img class="brands__image" src="./img/brands/Bosch.png" alt="Bosch">
+            </a>
+          </li>
+          <li class="brands__item">
+            <a class="brands__link" href="#">
+              <img class="brands__image" src="./img/brands/HP.png" alt="HP">
+            </a>
+          </li>
+          <li class="brands__item">
+            <a class="brands__link" href="#">
+              <img class="brands__image" src="./img/brands/Acer.png" alt="Acer">
+            </a>
+          </li>
+          <li class="brands__item">
+            <a class="brands__link" href="#">
+              <img class="brands__image" src="./img/brands/Sony.png" alt="Sony">
+            </a>
+          </li>
+          <li class="brands__item">
+            <a class="brands__link" href="#">
+              <img class="brands__image" src="./img/brands/lenovo.png" alt="Lenovo">
+            </a>
+          </li>
+          <li class="brands__item md xl">
+            <a class="brands__link" href="#">
+              <img class="brands__image" src="./img/brands/Samsung.png" alt="Samsung">
+            </a>
+          </li>
+          <li class="brands__item md xl">
+            <a class="brands__link" href="#">
+              <img class="brands__image" src="./img/brands/Apple.png" alt="Apple">
+            </a>
+          </li>
+        </ul>
+        <div class="swiper-pagination"></div>
+      </div>
+      <button class="brands__show-more-button md xl">
+        Показать все
+      </button>
+      <button class="brands__hide-button hide md xl">
+        Скрыть
+      </button>
+
     </section>
   </section>
 </main>

@@ -31,3 +31,9 @@
     display: block;
   }
 }
+
+.xl.md {
+  @media (min-width: $screen-md) {
+    display: block;
+  }
+}

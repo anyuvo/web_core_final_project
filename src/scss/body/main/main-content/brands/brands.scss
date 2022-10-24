@@ -1,0 +1,167 @@
+.brands {
+  background-color: #F8F8F8;
+
+  @media (min-width: $screen-md) {
+    padding-bottom: 34px;
+  }
+
+  &__title {
+    margin: 0;
+    padding: 16px;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'TT Lakes Regular', "Arial", sans-serif;
+    letter-spacing: -0.2px;
+    text-transform: uppercase;
+    color: #7E7E82;
+    background-image: linear-gradient(270deg, #F8F8F8 0%, #FFFFFF 98.61%);
+
+    @media (min-width: $screen-md) {
+      padding: 16px 24px;
+      background-image: linear-gradient(90deg, #F8F8F8 1.39%, #FFFFFF 100%);
+    }
+
+    @media (min-width: $screen-xl) {
+      padding: 16px 32px;
+      background-image: linear-gradient(270deg, #F8F8F8 0%, #FFFFFF 98.61%);
+    }
+  }
+
+  &__list {
+    box-sizing: border-box;
+    max-width: 320px;
+    margin: 0;
+    padding: 16px 0 66px 16px;
+    display: flex;
+    list-style: none;
+    flex-wrap: nowrap;
+
+    @media (min-width: $screen-md) {
+      max-width: 768px;
+      padding: 24px 0 8px 24px;
+      flex-wrap: wrap;
+    }
+
+    @media (min-width: $screen-xl) {
+      max-width: 1120px;
+      padding: 24px 0 8px 32px;
+      flex-wrap: wrap;
+    }
+  }
+
+  &__item {
+    &:nth-child(n + 7) {
+      @media (min-width: $screen-md) {
+        display: none;
+      }
+
+      @media (min-width: $screen-xl) {
+        display: block;
+      }
+    }
+
+    &:nth-child(n + 9) {
+      @media (min-width: $screen-xl) {
+        display: none;
+      }
+    }
+
+    &.visible {
+      display: block;
+    }
+
+    &.hide {
+      display: none;
+    }
+  }
+
+
+  &__link {
+    box-sizing: border-box;
+    margin-right: 16px;
+    padding: 16px;
+    min-width: 240px;
+    height: 72px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFFFF;
+    border: 1px solid #EAEAEA;
+    border-radius: 6px;
+
+    @media (min-width: $screen-md) {
+      margin-right: 24px;
+      margin-bottom: 16px;
+      min-width: 224px;
+    }
+
+    @media (min-width: $screen-xl) {
+      margin-right: 32px;
+      margin-bottom: 16px;
+      min-width: 240px;
+    }
+
+    &::after {
+      content: url(../img/icons/go.svg);
+      max-height: 40px;
+    }
+  }
+
+  &__show-more-button {
+    @media (min-width: $screen-md) {
+      position: relative;
+      padding: 0;
+      margin-left: 57px;
+      border: none;
+      cursor: pointer;
+      font-size: 16px;
+      line-height: 24px;
+      letter-spacing: -0.2px;
+      font-family: 'TT Lakes Medium', "Arial", sans-serif;
+      font-style: normal;
+      color: #1B1C21;
+      background-color: rgba(0, 0, 0, 0);
+    }
+
+    @media (min-width: $screen-xl) {
+      margin-left: 63px;
+    }
+
+    &::before {
+      content: url("../img/icons/expand.svg");
+      position: absolute;
+      left: -32px;
+    }
+  }
+
+  &__hide-button {
+    @media (min-width: $screen-md) {
+      position: relative;
+      padding: 0;
+      margin-left: 57px;
+      border: none;
+      cursor: pointer;
+      font-size: 16px;
+      line-height: 24px;
+      letter-spacing: -0.2px;
+      font-family: 'TT Lakes Medium', "Arial", sans-serif;
+      font-style: normal;
+      color: #1B1C21;
+      background-color: rgba(0, 0, 0, 0);
+    }
+
+    @media (min-width: $screen-xl) {
+      margin-left: 63px;
+    }
+
+    &::before {
+      content: url("../img/icons/expand-top.svg");
+      position: absolute;
+      left: -32px;
+    }
+  }
+
+  .hide {
+    display: none !important;
+  }
+}
