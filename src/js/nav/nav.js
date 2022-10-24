@@ -14,3 +14,17 @@ let closeNav = () => {
 openNavButton.addEventListener('click', openNav);
 closeNavButton.addEventListener('click', closeNav);
 blurArea.addEventListener('click', closeNav);
+
+window.addEventListener('resize', () => {
+  if (window.innerWidth >= 1440) {
+    nav.classList.remove('visually-hidden');
+  }
+
+  if (window.innerWidth < 1440) {
+    nav.classList.add('visually-hidden');
+  }
+});
+
+if (window.innerWidth >= 1440) {
+  nav.classList.remove('visually-hidden');
+}

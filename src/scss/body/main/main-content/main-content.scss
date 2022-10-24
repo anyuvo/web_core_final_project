@@ -8,12 +8,11 @@
 
   @media (min-width: $screen-md) {
     width: 769px;
-    min-height: 416px;
   }
 
   @media (min-width: $screen-xl) {
+    margin-left: 320px;
     width: 1120px;
-    min-height: 535px;
   }
 
   &__item {

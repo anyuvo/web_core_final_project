@@ -10,6 +10,10 @@
     gap: 35px;
   }
 
+  @media (min-width: $screen-xl) {
+    margin-left: 320px;
+  }
+
   &__item {
     margin: 0 0 16px 0;
     font-family: 'TT Lakes Medium', Arial, sans-serif;
@@ -19,5 +23,21 @@
     color: #7E7E82;
     mix-blend-mode: normal;
     opacity: 0.72;
+
+    @media (min-width: $screen-md) {
+      flex-basis: 30%;
+    }
+
+    &:first-child {
+      @media (min-width: $screen-md) {
+        text-align: left;
+      }
+    }
+
+    &:last-child {
+      @media (min-width: $screen-md) {
+        text-align: right;
+      }
+    }
   }
 }

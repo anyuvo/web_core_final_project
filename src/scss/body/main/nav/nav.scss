@@ -12,6 +12,10 @@
       background-color: #FFFFFF;
       z-index: 9;
     }
+
+    @media (min-width: $screen-xl) {
+      display: none;
+    }
   }
 
   &__content {
@@ -22,6 +26,9 @@
     box-shadow: 16px 0px 52px rgba(14, 24, 80, 0.2),
     -2px 0px 4px rgba(69, 79, 126, 0.02);
 
+    @media (min-width: $screen-xl) {
+      box-shadow: 0 0;
+    }
   }
 
   &__list {
