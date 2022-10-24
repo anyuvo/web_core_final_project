@@ -1,0 +1,33 @@
+.languages {
+  padding-left: 24px;
+  list-style-type: none;
+  display: flex;
+
+  &__button {
+    padding: 0;
+    margin-right: 7px;
+    border: none;
+    background-color: #FFFFFF;
+    color: #1B1C21;
+    font-family: 'TT Lakes', "Arial", sans-serif;
+    font-size: 16px;
+    font-weight: medium;
+    vertical-align: top;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+
+    &:hover {
+      opacity: 0.5;
+      transform: scale(1.2);
+    }
+
+    &--current {
+      color: #7E7E82;
+    }
+  }
+}
+
+
+

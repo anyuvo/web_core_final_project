@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4cc56fa5-cce3-4ce3-8719-32a3cf869939" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/scss/body/footer/footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/body/main/nav/contacts/contacts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/body/main/nav/languages/languages.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/body/main/nav/nav-upper-menu/nav-upper-menu.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/body/main/nav/nav.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/style.scss" afterDir="false" />
@@ -26,18 +29,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Work/Kata/1 WEB CORE/web_core_final_project/src/js",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Work/Kata/1 WEB CORE/web_core_final_project/src/scss/body/main/nav&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Work\Kata\1 WEB CORE\web_core_final_project\src\scss\body\main\nav" />
       <recent name="D:\Work\Kata\1 WEB CORE\web_core_final_project\src\js" />
       <recent name="D:\Work\Kata\1 WEB CORE\web_core_final_project\src\scss\body\main\main-content\price" />
       <recent name="D:\Work\Kata\1 WEB CORE\web_core_final_project\src\scss\body\main\main-content\types" />
@@ -60,7 +64,8 @@
       <updated>1666496655756</updated>
       <workItem from="1666496657219" duration="5493000" />
       <workItem from="1666537576144" duration="27792000" />
-      <workItem from="1666623389363" duration="8097000" />
+      <workItem from="1666623389363" duration="9084000" />
+      <workItem from="1666636884839" duration="1978000" />
     </task>
     <servers />
   </component>

@@ -1,0 +1,49 @@
+.nav-upper-menu {
+  margin: 0;
+  padding-left: 24px;
+  padding-right: 24px;
+  height: 86px;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+
+  &__logo {
+    width: 97px;
+    height: 51px;
+    margin-right: auto;
+    margin-left: 16.73px;
+    position: relative;
+    top: 1px;
+    left: -1px;
+    transition: opacity 0.2s ease-in-out;
+
+    &:hover {
+      opacity: 0.5;
+    }
+  }
+
+  &__icon {
+    width: 40px;
+    height: 40px;
+  }
+
+  &__button {
+    padding: 0;
+    width: 40px;
+    height: 40px;
+    border: none;
+    background-color: #FFFFFF;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+
+    &:hover {
+      opacity: 0.5;
+      transform: scale(1.2);
+    }
+  }
+}
+
+
+
+
+

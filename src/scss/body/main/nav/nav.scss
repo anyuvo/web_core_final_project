@@ -1,0 +1,46 @@
+.nav {
+  width: 320px;
+  padding-bottom: 32px;
+  background-color: #FFFFFF;
+  box-shadow: 16px 0px 52px rgba(14, 24, 80, 0.2),
+  -2px 0px 4px rgba(69, 79, 126, 0.02);
+
+  &__list {
+    min-height: 684px;
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    margin-top: 18px;
+    padding-left: 24px;
+  }
+
+  &__item {
+    position: relative;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    cursor: pointer;
+
+    &:hover {
+      opacity: 0.5;
+    }
+  }
+
+  &__link {
+    text-decoration: none;
+    color: #1B1C21;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+
+    &--active {
+      color: #7E7E82;
+
+      &::before {
+        position: absolute;
+        top: 12px;
+        left: -24px;
+        content: url("../img/icons/highlight_w4_h32.png");
+      }
+    }
+  }
+}
