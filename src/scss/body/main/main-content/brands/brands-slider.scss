@@ -1,9 +1,8 @@
 .brands-slider-container {
-    position: relative;
-    overflow: hidden;
-}
+  position: relative;
+  overflow: hidden;
 
-.brands-slider-container::after {
+  &::after {
     content: '';
     position: absolute;
     right: 0;
@@ -12,22 +11,25 @@
     height: 81px;
     background: linear-gradient(270deg, #F8F8F8 16.84%, rgba(248, 248, 248, 0.0001) 100%);
     z-index: 1;
+  }
+
 }
 
-.swiper-container-horizontal>.swiper-pagination-bullets {
-    bottom: 32px;
+.swiper-container-horizontal > .swiper-pagination-bullets {
+  bottom: 32px;
 }
 
 .swiper-pagination-bullet {
-	width: 12px;
-	height: 12px;
-    background: #DDDDDD;
-    opacity: 1;
+  width: 12px;
+  height: 12px;
+  background: #DDDDDD;
+  opacity: 1;
 }
-.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
-    margin: 0 6px;
+
+.swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet {
+  margin: 0 6px;
 }
 
 .swiper-pagination-bullet-active {
-    background: #B5B6BC;;
+  background: #B5B6BC;;
 }

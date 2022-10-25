@@ -1,5 +1,9 @@
 .about-us {
+  margin: 0;
+  padding: 0;
+
   @media (min-width: $screen-md) {
+    padding-bottom: 12px;
     display: flex;
   }
 
@@ -43,6 +47,12 @@
       width: 490px;
       line-height: 20px;
     }
+    //
+    //&:last-child {
+    //  @media (min-width: $screen-md) {
+    //    margin-bottom: 0;
+    //  }
+    //}
   }
 
   &__read-more {

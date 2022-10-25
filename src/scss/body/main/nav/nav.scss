@@ -85,6 +85,10 @@
         top: 12px;
         left: -24px;
         content: url("../img/icons/highlight_w4_h32.png");
+
+        @media (min-width: $screen-xl) {
+          top: -4px;
+        }
       }
     }
   }
