@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4cc56fa5-cce3-4ce3-8719-32a3cf869939" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/img/icons/send.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/callback-modal/callback-modal.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/body/main/callback-modal/callback-modal.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/feedback-modal/feedback-modal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/body/main/feedback-modal/feedback-modal.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/index.js" afterDir="false" />
@@ -65,7 +64,7 @@
       <workItem from="1666496657219" duration="5493000" />
       <workItem from="1666537576144" duration="27792000" />
       <workItem from="1666623389363" duration="9084000" />
-      <workItem from="1666636884839" duration="30441000" />
+      <workItem from="1666636884839" duration="32057000" />
     </task>
     <servers />
   </component>

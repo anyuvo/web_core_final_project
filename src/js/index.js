@@ -14,3 +14,5 @@ import './price/price';
 import './nav/nav';
 
 import './callback-modal/callback-modal';
+
+import './feedback-modal/feedback-modal';

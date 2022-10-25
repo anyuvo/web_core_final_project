@@ -30,7 +30,7 @@
         <img src="img/icons/call.svg" alt="Оставить заявку" title="Оставить заявку">
       </a>
     </li>
-    <li class="upper-menu__icon md">
+    <li class="upper-menu__icon open-feedback md">
       <a class="upper-menu__link" href="#">
         <img src="img/icons/chat.svg" alt="Оставить заявку" title="Оставить заявку">
       </a>
@@ -358,7 +358,7 @@
               <img src="./img/icons/call.svg" alt="Оставить заявку" title="Оставить заявку">
             </button>
           </li>
-          <li class="contacts__icon-item">
+          <li class="contacts__icon-item open-feedback">
             <button class="contacts__button">
               <img src="./img/icons/chat.svg" alt="Чат" title="Чат">
             </button>
@@ -401,6 +401,29 @@
         <a class="callback-modal__link" href="#">политикой конфиденциальности</a>
       </p>
       <button type="submit" class="callback-modal__send-button">
+        <img src="./img/icons/send.svg" alt="Заказать звонок" title="Заказать звонок">
+      </button>
+    </div>
+  </section>
+
+  <section class="feedback-modal visually-hidden">
+    <div class="feedback-modal__background"></div>
+    <div class="feedback-modal__content">
+      <button class="feedback-modal__close-button">
+        <img src="./img/icons/burger-close.svg" alt="Закрыть модальное окно" title="Закрыть модальное окно">
+      </button>
+      <h2 class="feedback-modal__title">Обратная связь</h2>
+      <input class="feedback-modal__input-field" type="text" placeholder="Имя">
+      <input class="feedback-modal__input-field" type="tel" placeholder="Телефон">
+      <input class="feedback-modal__input-field" type="email" placeholder="Электронная почта">
+      <textarea class="feedback-modal__textarea-field" type="text" placeholder="Сообщение" rows="4"></textarea>
+      <p class="feedback-modal__text">
+        Нажимая “отправить”, вы даете согласие на
+        <a class="feedback-modal__link" href="#">обработку персональных данных</a>
+        и соглашаетесь с нашей
+        <a class="feedback-modal__link" href="#">политикой конфиденциальности</a>
+      </p>
+      <button type="submit" class="feedback-modal__send-button">
         <img src="./img/icons/send.svg" alt="Заказать звонок" title="Заказать звонок">
       </button>
     </div>
