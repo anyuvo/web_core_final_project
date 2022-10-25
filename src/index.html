@@ -25,7 +25,7 @@
         <img src="img/icons/Group.svg" alt="Логотип CPS" title="Главная">
       </a>
     </li>
-    <li class="upper-menu__icon md">
+    <li class="upper-menu__icon open-callback md">
       <a class="upper-menu__link" href="#">
         <img src="img/icons/call.svg" alt="Оставить заявку" title="Оставить заявку">
       </a>
@@ -353,7 +353,7 @@
       </nav>
       <section class="contacts">
         <ul class="contacts__icon-list">
-          <li class="contacts__icon-item">
+          <li class="contacts__icon-item open-callback">
             <button class="contacts__button">
               <img src="./img/icons/call.svg" alt="Оставить заявку" title="Оставить заявку">
             </button>
@@ -385,6 +385,26 @@
       </ul>
     </div>
   </aside>
+
+  <section class="callback-modal visually-hidden">
+    <div class="callback-modal__background"></div>
+    <div class="callback-modal__content">
+      <button class="callback-modal__close-button">
+        <img src="./img/icons/burger-close.svg" alt="Закрыть модальное окно" title="Закрыть модальное окно">
+      </button>
+      <h2 class="callback-modal__title">Заказать звонок</h2>
+      <input class="callback-modal__input-field" type="tel" placeholder="Телефон">
+      <p class="callback-modal__text">
+        Нажимая “отправить”, вы даете согласие на
+        <a class="callback-modal__link" href="#">обработку персональных данных</a>
+        и соглашаетесь с нашей
+        <a class="callback-modal__link" href="#">политикой конфиденциальности</a>
+      </p>
+      <button type="submit" class="callback-modal__send-button">
+        <img src="./img/icons/send.svg" alt="Заказать звонок" title="Заказать звонок">
+      </button>
+    </div>
+  </section>
 </main>
 <footer class="footer">
   <p class="footer__item">

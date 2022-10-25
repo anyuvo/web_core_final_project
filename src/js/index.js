@@ -12,3 +12,5 @@ import './price/price-slider';
 import './price/price';
 
 import './nav/nav';
+
+import './callback-modal/callback-modal';
