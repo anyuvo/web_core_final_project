@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4cc56fa5-cce3-4ce3-8719-32a3cf869939" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/js/feedback-modal/feedback-modal.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/body/main/feedback-modal/feedback-modal.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/price/price.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/price/price.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/body/main/main-content/price/price.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/body/main/main-content/price/price.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../Project_1_K/anyuvo.github.io/anyuvo.github.io" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../Project_1_K/anyuvo.github.io/slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Project_1_K/anyuvo.github.io/slider.js" afterDir="false" />
     </list>
@@ -64,7 +62,7 @@
       <workItem from="1666496657219" duration="5493000" />
       <workItem from="1666537576144" duration="27792000" />
       <workItem from="1666623389363" duration="9084000" />
-      <workItem from="1666636884839" duration="32057000" />
+      <workItem from="1666636884839" duration="40218000" />
     </task>
     <servers />
   </component>

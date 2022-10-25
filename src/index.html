@@ -263,36 +263,106 @@
 
     <section class="price">
       <h2 class="price__title">Цены на услуги</h2>
-      <div class="price-slider-container" data-mobile="false">
+      <div class="price-slider-container xs" data-mobile="false">
         <ul class="price__list swiper-wrapper">
           <li class="price__item">
+            <div class="price__link">
+              <span class="price__key">Ремонтные услуги</span>
+              <span class="price__value">Диагностика</span>
+              <span class="price__key">Цена</span>
+              <span class="price__value">Бесплатно</span>
+              <span class="price__key">Срок</span>
+              <span class="price__value">30 мин</span>
+            </div>
+          </li>
+          <li class="price__item">
+            <div class="price__link">
+              <span class="price__key">Ремонтные услуги</span>
+              <span class="price__value">Замена дисплея</span>
+              <span class="price__key">Цена</span>
+              <span class="price__value">1 000 ₽</span>
+              <span class="price__key">Срок</span>
+              <span class="price__value">30-120 мин</span>
+            </div>
+          </li>
+          <li class="price__item">
+            <div class="price__link">
+              <span class="price__key">Ремонтные услуги</span>
+              <span class="price__value">Замена полифонического динамика</span>
+              <span class="price__key">Цена</span>
+              <span class="price__value">1 000 ₽</span>
+              <span class="price__key">Срок</span>
+              <span class="price__value">30-120 мин</span>
+            </div>
+          </li>
+          <li class="price__item">
             <a class="price__link" href="#">
-              Тестирование с выдачей технического заключения
+              <span class="price__key">Ремонтные услуги</span>
+              <span class="price__value">Тестирование с выдачей технического заключения</span>
+              <span class="price__key">Цена</span>
+              <span class="price__value">1 000 ₽</span>
+              <span class="price__key">Срок</span>
+              <span class="price__value">30-120 мин</span>
             </a>
           </li>
           <li class="price__item">
             <a class="price__link" href="#">
-              Диагностика
-            </a>
-          </li>
-          <li class="price__item">
-            <a class="price__link" href="#">
-              Замена дисплея
-            </a>
-          </li>
-          <li class="price__item">
-            <a class="price__link" href="#">
-              Замена полифонического динамика
-            </a>
-          </li>
-          <li class="price__item">
-            <a class="price__link" href="#">
-              Замена программного обеспечения
+              <span class="price__key">Ремонтные услуги</span>
+              <span class="price__value">Замена программного обеспечения</span>
+              <span class="price__key">Цена</span>
+              <span class="price__value">1 000 ₽</span>
+              <span class="price__key">Срок</span>
+              <span class="price__value">30-120 мин</span>
             </a>
           </li>
         </ul>
         <div class="swiper-pagination"></div>
       </div>
+
+      <table class="price__table md xl">
+        <col class="price__table-column-one">
+        <col class="price__table-column-two">
+        <col class="price__table-column-three">
+        <col class="price__table-column-four">
+        <thead class="price__table-head">
+        <th class="price__table-cell">Ремонтные услуги</th>
+        <th class="price__table-cell">Цена</th>
+        <th class="price__table-cell">Срок</th>
+        <th class="price__table-cell"></th>
+        </thead>
+        <tbody>
+        <tr class="price__table-row">
+          <td class="price__table-cell">Диагностика</td>
+          <td class="price__table-cell">Бесплатно</td>
+          <td class="price__table-cell">30 мин</td>
+          <td class="price__table-cell"><button class="price__table-button"></button></td>
+        </tr>
+        <tr class="price__table-row">
+          <td class="price__table-cell">Замена дисплея</td>
+          <td class="price__table-cell">1 000 ₽</td>
+          <td class="price__table-cell">30-120 мин</td>
+          <td class="price__table-cell"><button class="price__table-button"></button></td>
+        </tr>
+        <tr class="price__table-row">
+          <td class="price__table-cell">Замена полифонического динамика</td>
+          <td class="price__table-cell">1 000 ₽</td>
+          <td class="price__table-cell">30-120 мин</td>
+          <td class="price__table-cell"><button class="price__table-button"></button></td>
+        </tr>
+        <tr class="price__table-row">
+          <td class="price__table-cell">Тестирование с выдачей технического заключения</td>
+          <td class="price__table-cell">1 000 ₽</td>
+          <td class="price__table-cell">30-120 мин</td>
+          <td class="price__table-cell"><button class="price__table-button"></button></td>
+        </tr>
+        <tr class="price__table-row">
+          <td class="price__table-cell">Замена программного обеспечения</td>
+          <td class="price__table-cell">1 000 ₽</td>
+          <td class="price__table-cell">30-120 мин</td>
+          <td class="price__table-cell"><button class="price__table-button"></button></td>
+        </tr>
+        </tbody>
+      </table>
       <p class="price__description">
         Все цены указаны с учетом НДС. Стоимость ремонта указана на единичную услугу.
         Для получения коммерческого предложения на постоянное обслуживание, оставьте заявку.
