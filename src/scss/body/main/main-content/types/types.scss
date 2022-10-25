@@ -98,6 +98,7 @@
     letter-spacing: -0.2px;
     color: #1B1C21;
     text-decoration: none;
+    transition: all 0.2s ease-in-out;
 
 
     @media (min-width: $screen-md) {
@@ -110,6 +111,11 @@
       margin-right: 32px;
       margin-bottom: 16px;
       width: 240px;
+    }
+
+    &:hover {
+      opacity: 0.9;
+      transform: scale(1.1);
     }
 
     &::after {
@@ -133,10 +139,16 @@
       font-style: normal;
       color: #1B1C21;
       background-color: rgba(0, 0, 0, 0);
+      transition: all 0.2s ease-in-out;
     }
 
     @media (min-width: $screen-xl) {
       margin-left: 63px;
+    }
+
+    &:hover {
+      opacity: 0.9;
+      transform: scale(1.1);
     }
 
     &::before {
@@ -160,10 +172,16 @@
       font-style: normal;
       color: #1B1C21;
       background-color: rgba(0, 0, 0, 0);
+      transition: all 0.2s ease-in-out;
     }
 
     @media (min-width: $screen-xl) {
       margin-left: 63px;
+    }
+
+    &:hover {
+      opacity: 0.9;
+      transform: scale(1.1);
     }
 
     &::before {

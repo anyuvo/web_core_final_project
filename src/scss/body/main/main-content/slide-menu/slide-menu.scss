@@ -22,6 +22,7 @@
   &__item {
     margin-right: 19.56px;
     white-space: nowrap;
+    transition: all 0.2s ease-in-out;
 
     @media (min-width: $screen-md) {
       margin-right: 25px;
@@ -29,6 +30,11 @@
 
     @media (min-width: $screen-xl) {
       margin-bottom: 15px;
+    }
+
+    &:hover {
+      opacity: 0.9;
+      transform: scale(1.1);
     }
 
     &--active {
