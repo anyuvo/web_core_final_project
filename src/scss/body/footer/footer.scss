@@ -2,7 +2,7 @@
   padding: 16px 16px 3px 16px;
   display: flex;
   flex-direction: column;
-  background-color: #F8F8F8;
+  background-color: $color-back2;
 
   @media (min-width: $screen-md) {
     flex-direction: row;
@@ -20,7 +20,7 @@
     font-size: 14px;
     line-height: 16px;
     text-align: center;
-    color: #7E7E82;
+    color: $color-text2;
     mix-blend-mode: normal;
     opacity: 0.72;
 

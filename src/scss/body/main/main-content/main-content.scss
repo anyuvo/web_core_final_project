@@ -5,7 +5,7 @@
   min-height: 509px;
   display: flex;
   flex-direction: column;
-  background-color: #F8F8F8;
+  background-color: $color-back2;
 
   @media (min-width: $screen-md) {
     width: 769px;
@@ -51,7 +51,7 @@
     font-weight: bold;
     line-height: 40px;
     letter-spacing: -0.6px;
-    color: #1B1C21;
+    color: $color-text1;
 
     @media (min-width: $screen-md) {
       margin-left: 24px;

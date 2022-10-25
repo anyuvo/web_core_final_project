@@ -4,7 +4,7 @@
   height: 88px;
   display: flex;
   align-items: center;
-  background-color: #FFFFFF;
+  background-color: $color-back1;
   list-style-type: none;
 
   @media (min-width: $screen-xl) {
@@ -102,7 +102,7 @@
       line-height: 24px;
       font-family: "TT Lakes Medium", "Arial", sans-serif;
       letter-spacing: -0.2px;
-      color: #1B1C21;
+      color: $color-text1;
     }
   }
 }

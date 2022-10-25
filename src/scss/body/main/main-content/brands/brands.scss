@@ -1,7 +1,7 @@
 @import "brands-slider";
 
 .brands {
-  background-color: #F8F8F8;
+  background-color: $color-back2;
 
   @media (min-width: $screen-md) {
     padding-bottom: 34px;
@@ -20,17 +20,17 @@
     font-family: 'TT Lakes Regular', "Arial", sans-serif;
     letter-spacing: -0.2px;
     text-transform: uppercase;
-    color: #7E7E82;
-    background-image: linear-gradient(270deg, #F8F8F8 0%, #FFFFFF 98.61%);
+    color: $color-text2;
+    background-image: linear-gradient(270deg, $color-back2 0%, $color-back1 98.61%);
 
     @media (min-width: $screen-md) {
       padding: 16px 24px;
-      background-image: linear-gradient(90deg, #F8F8F8 1.39%, #FFFFFF 100%);
+      background-image: linear-gradient(90deg, $color-back2 1.39%, $color-back1 100%);
     }
 
     @media (min-width: $screen-xl) {
       padding: 16px 32px;
-      background-image: linear-gradient(270deg, #F8F8F8 0%, #FFFFFF 98.61%);
+      background-image: linear-gradient(270deg, $color-back2 0%, $color-back1 98.61%);
     }
   }
 
@@ -91,8 +91,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #FFFFFF;
-    border: 1px solid #EAEAEA;
+    background-color: $color-back1;
+    border: 1px solid $color-back3;
     border-radius: 6px;
     transition: all 0.2s ease-in-out;
 
@@ -131,7 +131,7 @@
       letter-spacing: -0.2px;
       font-family: 'TT Lakes Medium', "Arial", sans-serif;
       font-style: normal;
-      color: #1B1C21;
+      color: $color-text1;
       background-color: rgba(0, 0, 0, 0);
       transition: all 0.2s ease-in-out;
     }
@@ -164,7 +164,7 @@
       letter-spacing: -0.2px;
       font-family: 'TT Lakes Medium', "Arial", sans-serif;
       font-style: normal;
-      color: #1B1C21;
+      color: $color-text1;
       background-color: rgba(0, 0, 0, 0);
       transition: all 0.2s ease-in-out;
     }

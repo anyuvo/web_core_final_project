@@ -7,8 +7,8 @@
     padding: 0;
     margin-right: 7px;
     border: none;
-    background-color: #FFFFFF;
-    color: #1B1C21;
+    background-color: $color-back1;
+    color: $color-text1;
     font-family: 'TT Lakes', "Arial", sans-serif;
     font-size: 16px;
     font-weight: medium;
@@ -24,7 +24,7 @@
     }
 
     &--current {
-      color: #7E7E82;
+      color: $color-text2;
     }
   }
 }

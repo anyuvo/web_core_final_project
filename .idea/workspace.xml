@@ -3,11 +3,59 @@
   <component name="ChangeListManager">
     <list default="true" id="4cc56fa5-cce3-4ce3-8719-32a3cf869939" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/price/price.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/price/price.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/body/footer/footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/body/footer/footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/body/header/upper-menu/upper-menu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/body/header/upper-menu/upper-menu.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/body/main/callback-modal/callback-modal.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/body/main/callback-modal/callback-modal.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/body/main/feedback-modal/feedback-modal.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/body/main/feedback-modal/feedback-modal.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/body/main/main-content/about-us/about-us.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/body/main/main-content/about-us/about-us.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/body/main/main-content/brands/brands-slider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/body/main/main-content/brands/brands-slider.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/body/main/main-content/brands/brands.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/body/main/main-content/brands/brands.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/body/main/main-content/main-content.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/body/main/main-content/main-content.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/body/main/main-content/price/price-slider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/body/main/main-content/price/price-slider.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/body/main/main-content/price/price.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/body/main/main-content/price/price.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/body/main/main-content/slide-menu/slide-menu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/body/main/main-content/slide-menu/slide-menu.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/body/main/main-content/types/types-slider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/body/main/main-content/types/types-slider.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/body/main/main-content/types/types.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/body/main/main-content/types/types.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/body/main/nav/contacts/contacts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/body/main/nav/contacts/contacts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/body/main/nav/languages/languages.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/body/main/nav/languages/languages.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/body/main/nav/nav-upper-menu/nav-upper-menu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/body/main/nav/nav-upper-menu/nav-upper-menu.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/body/main/nav/nav.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/body/main/nav/nav.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/variables.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../Project_1_K/anyuvo.github.io/anyuvo.github.io" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Project_1_K/anyuvo.github.io/slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Project_1_K/anyuvo.github.io/slider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Project_1_K/anyuvo.github.io/icons/Group.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Project_1_K/anyuvo.github.io/icons/burger-close.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Project_1_K/anyuvo.github.io/icons/burger.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Project_1_K/anyuvo.github.io/icons/call.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Project_1_K/anyuvo.github.io/icons/chat.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Project_1_K/anyuvo.github.io/icons/checkstatus.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Project_1_K/anyuvo.github.io/icons/divider.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Project_1_K/anyuvo.github.io/icons/expand-top.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Project_1_K/anyuvo.github.io/icons/expand.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Project_1_K/anyuvo.github.io/icons/go.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Project_1_K/anyuvo.github.io/icons/highlight.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Project_1_K/anyuvo.github.io/icons/highlight_w4_h32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Project_1_K/anyuvo.github.io/icons/profile.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Project_1_K/anyuvo.github.io/icons/repair.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Project_1_K/anyuvo.github.io/icons/search.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Project_1_K/anyuvo.github.io/icons/shadow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Project_1_K/anyuvo.github.io/images/brands/Acer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Project_1_K/anyuvo.github.io/images/brands/Apple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Project_1_K/anyuvo.github.io/images/brands/Bosch.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Project_1_K/anyuvo.github.io/images/brands/HP.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Project_1_K/anyuvo.github.io/images/brands/Samsung.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Project_1_K/anyuvo.github.io/images/brands/Sony.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Project_1_K/anyuvo.github.io/images/brands/ViewSonic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Project_1_K/anyuvo.github.io/images/brands/lenovo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Project_1_K/anyuvo.github.io/images/fotologolg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Project_1_K/anyuvo.github.io/images/fotologosm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Project_1_K/anyuvo.github.io/images/fotologoxs.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Project_1_K/anyuvo.github.io/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Project_1_K/anyuvo.github.io/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Project_1_K/anyuvo.github.io/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Project_1_K/anyuvo.github.io/repair.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Project_1_K/anyuvo.github.io/slider.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Project_1_K/anyuvo.github.io/slider.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Project_1_K/anyuvo.github.io/swiper.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Project_1_K/anyuvo.github.io/swiper.min.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,16 +74,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Work/Kata/1 WEB CORE/web_core_final_project/src/js",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Work/Kata/1 WEB CORE/web_core_final_project/src/js&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Work\Kata\1 WEB CORE\web_core_final_project\src\js" />
@@ -62,7 +110,8 @@
       <workItem from="1666496657219" duration="5493000" />
       <workItem from="1666537576144" duration="27792000" />
       <workItem from="1666623389363" duration="9084000" />
-      <workItem from="1666636884839" duration="40218000" />
+      <workItem from="1666636884839" duration="41236000" />
+      <workItem from="1666686269596" duration="2588000" />
     </task>
     <servers />
   </component>

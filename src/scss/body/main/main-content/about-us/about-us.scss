@@ -30,7 +30,7 @@
     line-height: 18px;
     font-family: "TT Lakes Regular", "Arial", sans-serif;
     letter-spacing: 0.2px;
-    color: #1B1C21;
+    color: $color-text1;
 
     @media (min-width: $screen-md) {
       margin-left: 24px;
@@ -62,7 +62,7 @@
     line-height: 24px;
     letter-spacing: -0.2px;
     font-family: 'TT Lakes Medium', "Arial", sans-serif;
-    color: #1B1C21;
+    color: $color-text1;
     background-color: rgba(0, 0, 0, 0);
     transition: all 0.2s ease-in-out;
 

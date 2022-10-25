@@ -8,7 +8,7 @@
       min-width: 769px;
       min-height: 1024px;
       opacity: 0.96;
-      background-color: #FFFFFF;
+      background-color: $color-back1;
       z-index: 20;
     }
 
@@ -26,7 +26,7 @@
     min-height: 676px;
     display: flex;
     flex-direction: column;
-    background-color: #FFFFFF;
+    background-color: $color-back1;
     box-shadow: 16px 0px 52px rgba(14, 24, 80, 0.2),
     -2px 0px 4px rgba(69, 79, 126, 0.02);
 
@@ -73,7 +73,7 @@
     font-size: 24px;
     line-height: 32px;
     letter-spacing: -0.6px;
-    color: #1B1C21;
+    color: $color-text1;
 
     @media (min-width: $screen-md) {
       margin-top: 40px;
@@ -101,8 +101,8 @@
     font-size: 16px;
     line-height: 24px;
     letter-spacing: -0.2px;
-    color: #B5B6BC;
-    border: 1px solid #EAEAEA;
+    color: $color-text3;
+    border: 1px solid $color-back3;
     border-radius: 8px;
   }
 
@@ -110,12 +110,12 @@
     font-family: "TT Lakes Medium", "Arial", sans-serif;
     font-size: 14px;
     line-height: 16px;
-    color: #7E7E82;
+    color: $color-text2;
   }
 
   &__link {
     text-decoration: none;
-    color: #FF3E79;
+    color: $color-link1;
   }
 
   &__send-button {
